@@ -3,30 +3,32 @@ CREATE DATABASE dm_db;
 USE dm_db;
 DROP TABLE IF EXISTS customer;
 CREATE TABLE customer (
-			CustomerId		INT,
-			Surname			VARCHAR(256),
-            Gender			ENUM ('Male', 'Female'),
-            Age				INT,
-            IsActiveMember	ENUM ('1', '0'),
-            Tenure			INT,
-            HasCrCard		ENUM ('1', '0'),
-			CreditScore		INT,
-	PRIMARY KEY (customerId)
+    CustomerId INT,
+    Surname VARCHAR(256),
+    Gender ENUM('Male', 'Female'),
+    Age INT,
+    IsActiveMember ENUM('1', '0'),
+    Tenure INT,
+    HasCrCard ENUM('1', '0'),
+    CreditScore INT,
+    PRIMARY KEY (customerId)
 );
-CREATE TABLE Geography(
-			GeoId			VARCHAR(256),
-            Country			VARCHAR(256),
-	PRIMARY KEY (GeoId)
+CREATE TABLE Geography (
+    GeoId VARCHAR(256),
+    Country VARCHAR(256),
+    PRIMARY KEY (GeoId)
 );
-CREATE TABLE Transaction(
-			TransactionId	INT,
-			CustomerId		INT,
-            GeoId			VARCHAR(256),
-			NumOfProducts	INT,
-            Balance 		DECIMAL(10,2),
-	FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId),
-    FOREIGN KEY (GeoId) REFERENCES Geography (GeoId),
-	PRIMARY KEY (TransactionId)
+CREATE TABLE Transaction (
+    TransactionId INT,
+    CustomerId INT,
+    GeoId VARCHAR(256),
+    NumOfProducts INT,
+    Balance DECIMAL(10 , 2 ),
+    FOREIGN KEY (CustomerId)
+        REFERENCES Customer (CustomerId),
+    FOREIGN KEY (GeoId)
+        REFERENCES Geography (GeoId),
+    PRIMARY KEY (TransactionId)
 );
 USE dm_db;
 SET GLOBAL LOCAL_INFILE=true;
