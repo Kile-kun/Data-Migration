@@ -5,17 +5,17 @@ An SME in the retail industry was planning to upgrade their existing Data Archit
 
 ### Objectives:
 The primary objective of the data migration project was to ensure a smooth transition from the old systems to the new ones without any loss of data or disruption to business operations. The project also aimed to;
-  i.  Improve data quality, 
-  ii. Optimize the new systems' performance,
-  iii.  Analyze the data to identify the business KPIs, 
-  iv. Create an automated Dashboard to visualize business performance and 
-  v.  To design a an algorithm that predict future sales and customer performances.
+  - Improve data quality,
+  - Optimize the new systems' performance,
+  - Analyze the data to identify the business KPIs,
+  - Create an automated Dashboard to visualize business performance and
+  - To design a an algorithm that predict future sales and customer performances.
 
 ### Approach:
 To achieve the project objectives, the following steps were taken:
 
 **Data Extraction**: The team extracted the data from the old systems using Excel funtions and tools that ensured data integrity. Since it was a single sheet of data, Three new sheets was created from the parent sheet they include;
-    i.  **Customer Table**: This include the details of the customers that have transacted with the business, it include details like; Age, Sex, Credit Score and Number of           years they have been transacting with the business.
-    ii.  **Transaction Data**: It involve list and details of all transactions conducted with the business by the customers, it include number of products sales, Balance on           customer accounts and location of business.
-    iii.  **Geography Data**: This is the list of all the location(Countries) where the business is operating.
+   -  **Customer Table**: This include the details of the customers that have transacted with the business, it include details like; Age, Sex, Credit Score and Number of           years they have been transacting with the business.
+   -  **Transaction Data**: It involve list and details of all transactions conducted with the business by the customers, it include number of products sales, Balance on           customer accounts and location of business.
+   -  **Geography Data**: This is the list of all the location(Countries) where the business is operating.
     Each Column in the Parent table was matched to each table Using **INDEX**, **MATCH**, and **IF** Functions. The Details of the Extraction is Located in the [DM_Dataset](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20Dataset.xlsx).
