@@ -15,7 +15,7 @@ The primary objective of the data migration project was to ensure a smooth trans
 To achieve the project objectives, the following steps were taken:
 
 **Data Extraction**: The team extracted the data from the old systems using Excel funtions and tools that ensured data integrity. Since it was a single sheet of data, Three new sheets was created from the parent sheet they include;
-    o **Customer Table**: This include the details of the customers that have transacted with the business, it include details like; Age, Sex, Credit Score and Number of           years they have been transacting with the business.
-    o **Transaction Data**: It involve list and details of all transactions conducted with the business by the customers, it include number of products sales, Balance on           customer accounts and location of business.
-    o **Geography Data**: This is the list of all the location(Countries) where the business is operating.
-    Each Column in the Parent table was matched to each table Using **INDEX**, **MATCH**, and **IF** Functions. The Details of the Extraction is Located in the [DM_Dataset]      (https://github.com/Kile-kun/Data-Migration/blob/main/DM%20Dataset.xlsx).
+    a. **Customer Table**: This include the details of the customers that have transacted with the business, it include details like; Age, Sex, Credit Score and Number of           years they have been transacting with the business.
+    b.  **Transaction Data**: It involve list and details of all transactions conducted with the business by the customers, it include number of products sales, Balance on           customer accounts and location of business.
+    c.  **Geography Data**: This is the list of all the location(Countries) where the business is operating.
+    Each Column in the Parent table was matched to each table Using **INDEX**, **MATCH**, and **IF** Functions. The Details of the Extraction is Located in the [DM_Dataset](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20Dataset.xlsx).
