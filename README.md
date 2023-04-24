@@ -22,10 +22,10 @@ To achieve the project objectives, the following steps were taken:
   
 **Database Creation**: The Database for the project was initiated with the creation of an ENTITY RELATIONSHIP DIAGRAM which visualize the connection between the three tables(component of the database) extracted from the parent dataset. The ERD is attached [below](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20ERD.png) ![alt text](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20ERD.png). The Database DM_db was created an Primary Key and Foreign Key was assigned to deserving column of the different tables. The Database was created [here](https://github.com/Kile-kun/Data-Migration/blob/main/DM_db.sql)
 
-**Data Loading: The data was loaded into the new database using custom scripts that transformed and validated the data as it was loaded. The Database Loading was using the [INLINE](https://github.com/Kile-kun/Data-Migration/blob/main/DM_db.sql) Method.
+**Data Loading**: The data was loaded into the new database using custom scripts that transformed and validated the data as it was loaded. The Database Loading was using the [INLINE](https://github.com/Kile-kun/Data-Migration/blob/main/DM_db.sql) Method.
 
 **Data Analysis**: Insight from the data was generated to establish;
-    -- The frequency distribution of certain customer demography like age and gender 
-    -- Product purchase performance along the different demography,
-    -- Highlight Top customers based on certain conditions like volume of product purchased and Number of Years Patronizing the business
+    - The frequency distribution of certain customer demography like age and gender 
+    - Product purchase performance along the different demography,
+    - Highlight Top customers based on certain conditions like volume of product purchased and Number of Years Patronizing the business
  The details of t
