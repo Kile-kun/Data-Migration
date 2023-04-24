@@ -20,4 +20,4 @@ To achieve the project objectives, the following steps were taken:
    -  **Geography Table**: This is the list of all the location(Countries) where the business is operating.
     Each Column in the Parent table was matched to each table Using **INDEX**, **MATCH**, and **IF** Functions. The Details of the Extraction is Located in the [DM_Dataset](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20Dataset.xlsx).
   
-**Database Creation**:
+**Database Creation**: The Database for the project was initiated with the creation of an ENTITY RELATIONSHIP DIAGRAM which visualize the connection between the three tables extracted from the parent dataset. The ERD is attached [below](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20ERD.png).
