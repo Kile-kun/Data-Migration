@@ -25,7 +25,7 @@ To achieve the project objectives, the following steps were taken:
 **Data Loading**: The data was loaded into the new database using custom scripts that transformed and validated the data as it was loaded. The Database Loading was using the [INLINE](https://github.com/Kile-kun/Data-Migration/blob/main/DM_db.sql) Method.
 
 **Data Analysis**: Insight from the data was generated to establish;
-    - The frequency distribution of certain customer demography like age and gender 
-    - Product purchase performance along the different demography,
-    - Highlight Top customers based on certain conditions like volume of product purchased and Number of Years Patronizing the business
+   - The frequency distribution of certain customer demography like age and gender 
+   - Product purchase performance along the different demography,
+   - Highlight Top customers based on certain conditions like volume of product purchased and Number of Years Patronizing the business
  The details of t
