@@ -28,4 +28,5 @@ To achieve the project objectives, the following steps were taken:
    - The frequency distribution of certain customer demography like age and gender 
    - Product purchase performance along the different demography,
    - Highlight Top customers based on certain conditions like volume of product purchased and Number of Years Patronizing the business.
+ 
  The details of the insights generated is contained in the SQL [file](https://github.com/Kile-kun/Data-Migration/blob/main/DM%20EDA.sql)
